@@ -11,7 +11,7 @@ import configparser
 
 config = configparser.ConfigParser()
 try:
-    config.read('D:\programing\clickerautobuy\config.ini')
+    config.read('config.ini')
     print('config found')
     screen_mode = config['all']['screen-mode']
     debug = config['all']['debug_mode']
